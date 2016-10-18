@@ -11,7 +11,7 @@ Luscas Sieleman<br>
 Este documento contém a especificação do projeto do banco de dados <nome do projeto> e motivação da escolha realizada. <br>
 
 ###3	MINI-MUNDO<br>
-Descrever o mini-mundo. Não deve ser maior do que 30 linhas <br>
+Para utilizar o programa será necessario que o usuario crie uma conta, seram guardadas informações pessoais do usuario. Possuindo a conta o usuario poderá acessar o programa e pesquisar o livro que  deseja. No bando de dados haverá todos os locais que o livro está disponivel e isso será mostrado ao usuario, ele pode salvar essa informação para poder ir ao local futuramente. <br>
 
 ###4	RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
