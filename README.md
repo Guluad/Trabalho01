@@ -38,10 +38,10 @@ Para utilizar o programa será necessario que o usuario crie uma conta, seram gu
     5.2 NOTACAO UML (Caso esteja fazendo a disciplina de analise)
 
 ####5.1 Validação do Modelo Conceitual
-    [Grupo01]: Brenda e Daniele
-    [Grupo02]: Julia
+    [Grupo01]: Brenda e Daniele.
+    [Grupo02]: Julia e Camilla.
 
-####5.2 DECISÕES DE PROJETO
+####5.2 DECISÕES DE PROJETO ****
     [atributo]: [descrição da decisão]
     
     EXEMPLO:
@@ -49,7 +49,7 @@ Para utilizar o programa será necessario que o usuario crie uma conta, seram gu
     pode possuir para cada departamento mais de uma localização... 
     b) justifique!
 
-####5.3 DESCRIÇÃO DOS DADOS 
+####5.3 DESCRIÇÃO DOS DADOS ****
     [objeto]: [descrição do objeto]
     
     EXEMPLO:
@@ -58,7 +58,11 @@ Para utilizar o programa será necessario que o usuario crie uma conta, seram gu
 
 
 ###6	MODELO LÓGICO<br>
+![Alt text](http://i.imgur.com/82Cmzyc.jpg?raw=true "Modelo Lógico")
+
 ###7	MODELO FÍSICO<br>
+![Alt text](http://i.imgur.com/ydNvSZH.jpg?raw=true "Modelo Físico")
+
 ###8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 ####8.1 DETALHAMENTO DAS INFORMAÇÕES
         Detalhamento sobre as informações e processo de obtenção ou geração dos dados.
