@@ -8,8 +8,8 @@ Gustavo dos Santos Andrade<br>
 Luscas Sieleman<br>
 
 ###2	INTRODUÇÃO E MOTIVAÇAO<br>
-Este documento contém a especificação do projeto do banco de dados <nome do projeto> e motivação da escolha realizada. <br>
-
+    Foi decidido desenvolver o "Book Where" por livros serem uma coisa que tem um papel grande no dia a dia de muitas pessoas e o aplicativo iria facilitar encontrar o que deseja com facilidade e eficiênia. <br>
+    
 ###3	MINI-MUNDO<br>
 Para utilizar o programa será necessario que o usuario crie uma conta, seram guardadas informações pessoais do usuario. Possuindo a conta o usuario poderá acessar o programa e pesquisar o livro que  deseja. No bando de dados haverá todos os locais que o livro está disponivel e isso será mostrado ao usuario, ele pode salvar essa informação para poder ir ao local futuramente. <br>
 
@@ -58,11 +58,10 @@ Para utilizar o programa será necessario que o usuario crie uma conta, seram gu
 
 
 ###6	MODELO LÓGICO<br>
-![Alt text](http://i.imgur.com/82Cmzyc.jpg?raw=true "Modelo Lógico")
+![Alt text](http://i.imgur.com/ydNvSZH.jpg?raw=true "Modelo Lógico")
 
 ###7	MODELO FÍSICO<br>
-![Alt text](http://i.imgur.com/ydNvSZH.jpg?raw=true "Modelo Físico")
-
+    Arquivo sql com modelo físico: https://mega.nz/#!ZNZBXSSa!1ZRjh0OaRNQx07cjt2PJFFj6dVLoRWn3wgHMfpBHuFw
 ###8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 ####8.1 DETALHAMENTO DAS INFORMAÇÕES
         Detalhamento sobre as informações e processo de obtenção ou geração dos dados.
