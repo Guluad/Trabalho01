@@ -49,14 +49,48 @@ Para utilizar o programa será necessario que o usuario crie uma conta, seram gu
     pode possuir para cada departamento mais de uma localização... 
     b) justifique!
 
-####5.3 DESCRIÇÃO DOS DADOS ****
-    [objeto]: [descrição do objeto]
-    
-    EXEMPLO:
-    CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
-    CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
-
-
+####5.3 DESCRIÇÃO DOS DADOS ****<br>
+Usuário: tabela armazena as informações de cadastro de cada usuário.<br>
+	Cod_Usuário: campo numérico que armazena um número de identificação único para cada usuário;<br>
+	Login: campo de texto que armazena o login (não pode ser repetido) da conta do usuário;<br>
+	Nome: campo de texto que armazena o nome completo do usuário;<br>
+	Senha: campo de texto que armazena a palavra-chave da conta do usuário;<br>
+	Sexo: campo de texto que armazena o sexo (masculino ou feminino) do usuário;<br>
+	Email: campo de texto que armazena o endereço de e-mail do usuário.<br>
+<br>
+Endereço_Usuário: tabela que armazena o endereço do usuário, substituindo o atributo multivalorado.<br>
+	Cod_Usuário: campo numérico que armazena um número de identificação único para cada usuário (chave estrangeira);<br>
+	Rua: campo de texto que armazena o nome da rua;<br>
+	CEP: campo numérico que armazena o Código de Endereçamento Local do usuário;<br>
+	Cidade: campo de texto que armazena o nome da cidade do usuário;<br>
+	Estado: campo de texto que armazna o nome da cidade do usuário;<br>
+	Número: campo numérico que armazena o número residencial do usuário;<br>
+<br>
+Local: tabela armazena as informações de cada local.<br>
+	Cod_Local: campo numérico que armazena um número de identificação único para cada local;<br>
+	Nome: campo de texto que armazena o nome do local;<br>
+<br>
+Endereço_Local: tabela é uma tabela que armazena o endereço do local substituindo o atributo multivalorado.<br>
+	Cod_Local: campo numérico que armazena um número de identificação único para cada local (chave estrangeira) do local;<br>
+	Rua: campo de texto que armazena o nome da rua do local;<br>
+	CEP: campo numérico que armazena o Código de Endereçamento Local do local;<br>
+	Cidade: campo de texto que armazena o nome da cidade do local;<br>
+	Estado: campo de texto que armazna o nome da cidade do local;<br>
+	Número: campo numérico que armazena o número residencial do local;<br>
+<br>
+Livro: tabela armazena as informações de cada livro.<br>
+	Cod_Livro: campo numérico que armazena um número de identificação único para cada livro;<br>
+	Preço: campo numérico que armazena o valor de custo do livro;<br>
+	Título: campo de texto que armazena o nome do livro;<br>
+	Autor: campo de texto que armazena o nome do autor do livro;<br>
+	Editora: campo de texto que armazena o nome da editora;<br>
+	Gênero: campo de texto que armazena o gênero do livro (romance, não-ficção, biografia, etc).<br>
+<br>
+Tipo + Contato: tabela que armazena os contatos de cada local.<br>
+	Cod_Local: campo numérico que armazena um número de identificação único para cada local (chave estrangeira);<br>
+	Tipo_Contato: campo numérico que armazena um número que representa um tipo de contato diferente (e-mail, telefone, etc).<br>
+	Descrição: campo que armazena o contato efetivamente.<br>
+<br>
 ###6	MODELO LÓGICO<br>
 ![Alt text](http://i.imgur.com/ydNvSZH.jpg?raw=true "Modelo Lógico")
 
