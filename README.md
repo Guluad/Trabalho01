@@ -33,7 +33,7 @@ Para utilizar o programa será necessario que o usuario crie uma conta, seram gu
 
 ###5	MODELO CONCEITUAL<br>
     5.1 NOTACAO ENTIDADE RELACIONAMENTO
-![Alt text](http://i.imgur.com/Jb0dOkP.jpg?raw=true "Modelo Conceitual")
+![Alt text](http://i.imgur.com/Mfp1itA.jpg?raw=true "Modelo Conceitual")
     
     5.2 NOTACAO UML (Caso esteja fazendo a disciplina de analise)
 
@@ -92,7 +92,7 @@ Tipo + Contato: tabela que armazena os contatos de cada local.<br>
 	Descrição: campo que armazena o contato efetivamente.<br>
 <br>
 ###6	MODELO LÓGICO<br>
-![Alt text](http://i.imgur.com/Ain4yJv.jpg?raw=true "Modelo Lógico")
+![Alt text](http://i.imgur.com/Dtz37wW.jpg?raw=true "Modelo Lógico")
 
 ###7	MODELO FÍSICO<br>
 
