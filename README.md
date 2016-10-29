@@ -33,7 +33,7 @@ Para utilizar o programa será necessario que o usuario crie uma conta, seram gu
 
 ###5	MODELO CONCEITUAL<br>
     5.1 NOTACAO ENTIDADE RELACIONAMENTO
-![Alt text](https://i.imgur.com/zfJQL9P.jpg?raw=true "Modelo Conceitual")
+![Alt text](http://i.imgur.com/Jb0dOkP.jpg?raw=true "Modelo Conceitual")
     
     5.2 NOTACAO UML (Caso esteja fazendo a disciplina de analise)
 
@@ -92,9 +92,106 @@ Tipo + Contato: tabela que armazena os contatos de cada local.<br>
 	Descrição: campo que armazena o contato efetivamente.<br>
 <br>
 ###6	MODELO LÓGICO<br>
-![Alt text](http://i.imgur.com/ydNvSZH.jpg?raw=true "Modelo Lógico")
+![Alt text](http://i.imgur.com/Ain4yJv.jpg?raw=true "Modelo Lógico")
 
 ###7	MODELO FÍSICO<br>
+
+CREATE TABLE livros (<br>
+
+)<br>
+
+CREATE TABLE Usuario (<br>
+Nome Texto(1),<br>
+Login Texto(1),<br>
+Sexo Texto(1),<br>
+Email Texto(1),<br>
+Senha Texto(1),<br>
+Cod_Usuario Texto(1) PRIMARY KEY<br>
+)<br>
+
+CREATE TABLE tipo+Contato (<br>
+Cod_tipo VARCHAR(10),<br>
+tipo_contado VARCHAR(10),<br>
+Descrição  VARCHAR(10),<br>
+Cod_contado VARCHAR(10),<br>
+PRIMARY KEY(Cod_tipo,Cod_contado)<br>
+)<br>
+
+CREATE TABLE Livro (<br>
+preço VARCHAR(10),<br>
+Cod_livro VARCHAR(10) PRIMARY KEY<br>
+)<br>
+
+CREATE TABLE Endereço (<br>
+Cidade Texto(1),<br>
+Numero Texto(1),<br>
+Rua Texto(1),<br>
+Cod_endereço Texto(1) PRIMARY KEY,<br>
+Estado Texto(1),<br>
+CEP Texto(1),<br>
+id_Cidade VARCHAR(10),<br>
+id_Estado VARCHAR(10)<br>
+)<br>
+
+CREATE TABLE Estado (<br>
+nome VARCHAR(10),<br>
+id_Estado VARCHAR(10) PRIMARY KEY<br>
+)<br>
+
+CREATE TABLE Cidade (<br>
+id_Cidade VARCHAR(10) PRIMARY KEY,<br>
+nome VARCHAR(10)<br>
+)<br>
+
+CREATE TABLE Exemplar (<br>
+Titulo Texto(1),<br>
+Autor Texto(1),<br>
+genero Texto(1),<br>
+Cod_exemplar Texto(1) PRIMARY KEY,<br>
+Editora Texto(1),<br>
+Cod_livro VARCHAR(10),<br>
+Cod_negocio Texto(1),<br>
+FOREIGN KEY(Cod_livro) REFERENCES Livro (Cod_livro)<br>
+)<br>
+
+CREATE TABLE Local_negocio (<br>
+Nome Texto(1),<br>
+Cod_negocio Texto(1) PRIMARY KEY<br>
+)<br>
+
+CREATE TABLE Encontra (<br>
+Cod_Usuario Texto(1),<br>
+Cod_negocio Texto(1),<br>
+FOREIGN KEY(Cod_Usuario) REFERENCES Usuario (Cod_Usuario),<br>
+FOREIGN KEY(Cod_negocio) REFERENCES Local_negocio (Cod_negocio)<br>
+)<br>
+
+CREATE TABLE Tem (<br>
+Cod_endereço Texto(1),<br>
+Cod_Usuario Texto(1),<br>
+FOREIGN KEY(Cod_endereço) REFERENCES Endereço (Cod_endereço),<br>
+FOREIGN KEY(Cod_Usuario) REFERENCES Usuario (Cod_Usuario)<br>
+)<br>
+
+CREATE TABLE possui (<br>
+Cod_tipo VARCHAR(10),<br>
+Cod_contado VARCHAR(10),<br>
+Cod_negocio Texto(1),<br>
+FOREIGN KEY(Cod_contado,,) REFERENCES tipo+Contato (Cod_tipo,Cod_contado),<br>
+FOREIGN KEY(Cod_negocio) REFERENCES Local_negocio (Cod_negocio)<br>
+)<br>
+
+CREATE TABLE Está em (<br>
+Cod_endereço Texto(1),<br>
+Cod_negocio Texto(1),<br>
+FOREIGN KEY(Cod_endereço) REFERENCES Endereço (Cod_endereço),<br>
+FOREIGN KEY(Cod_negocio) REFERENCES Local_negocio (Cod_negocio)<br>
+)<br>
+
+ALTER TABLE Endereço ADD FOREIGN KEY(id_Cidade) REFERENCES Cidade (id_Cidade)
+ALTER TABLE Endereço ADD FOREIGN KEY(id_Estado) REFERENCES Estado (id_Estado)
+ALTER TABLE Exemplar ADD FOREIGN KEY(Cod_negocio) REFERENCES Local_negocio (Cod_negocio)
+
     Arquivo sql com modelo físico: https://mega.nz/#!ZNZBXSSa!1ZRjh0OaRNQx07cjt2PJFFj6dVLoRWn3wgHMfpBHuFw
 ###8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 ####8.1 DETALHAMENTO DAS INFORMAÇÕES
