@@ -188,11 +188,12 @@ FOREIGN KEY(Cod_endereço) REFERENCES Endereço (Cod_endereço),<br>
 FOREIGN KEY(Cod_negocio) REFERENCES Local_negocio (Cod_negocio)<br>
 )<br>
 
-ALTER TABLE Endereço ADD FOREIGN KEY(id_Cidade) REFERENCES Cidade (id_Cidade)
-ALTER TABLE Endereço ADD FOREIGN KEY(id_Estado) REFERENCES Estado (id_Estado)
-ALTER TABLE Exemplar ADD FOREIGN KEY(Cod_negocio) REFERENCES Local_negocio (Cod_negocio)
+ALTER TABLE Endereço ADD FOREIGN KEY(id_Cidade) REFERENCES Cidade (id_Cidade)<br>
+ALTER TABLE Endereço ADD FOREIGN KEY(id_Estado) REFERENCES Estado (id_Estado)<br>
+ALTER TABLE Exemplar ADD FOREIGN KEY(Cod_negocio) REFERENCES Local_negocio (Cod_negocio)<br>
 
-    Arquivo sql com modelo físico: https://mega.nz/#!ZNZBXSSa!1ZRjh0OaRNQx07cjt2PJFFj6dVLoRWn3wgHMfpBHuFw
+Arquivo sql com modelo físico: https://mega.nz/#!AZ4BBDDB!AGNUyeDZ1Y52Zna6EEizESMwu14g4ZPGwE7bz0ilVgo<br>
+<br>
 ###8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 ####8.1 DETALHAMENTO DAS INFORMAÇÕES
         Detalhamento sobre as informações e processo de obtenção ou geração dos dados.
