@@ -40,25 +40,7 @@ Para utilizar o programa será necessario que o usuario crie uma conta, seram gu
     [Grupo02]: Julia e Camilla.
 
 ####5.2 DECISÕES DE PROJETO ****
-    Campo nome: É um campo varchar com 30 casas pois o tamanho do nome ppode variar de usuario para usuario. 
-    <br>
-    Campo login: É um campo varchar com 12 casas pois o tamanho do login pode variar, isso também limita seu tamanho. <br>
-    Campo sexo: É um campo varchar com apenas uma casa pois o sexo pode ser identificado com M e F. <br>
-    Campo email: É um campo varchar com 35 casas pois o tamanho do email ppode variar de usuario para usuario. <br>
-    Campo senha: É um campo vaarchar de 20 casas pois o tamanho da senha pode variar e isso também limitará seu tamanho maximo. <br>
-    Campo tipo_contado: É um campo varchar de 3 casas pois com isso ja temos o bastante para identificar diversos tipos de contatos usando diferentes combinações de numero, exemplo: 001,002,003,004,etc. <br>
-    Campo Descrisão: É um campo varchar de 30 casas onde será colocado seu endereço de contado referente ao tipo, foi escolhido varchar pois o tamanho pode variar.
-    Campo titulo: É um campo varchar de 40 casas pois o nome tamanho do titulo pode variar. <br>
-    Campo autor: É um varchar de tamanho 20 pois o tamanho pode variar, autores geralmente usam abreviações entao nao há necessidade de utilizar um varchar maior. <br>
-    Campo genero: É um campo varchar de 15 casas pois generos geralmentes sao apenas uma palavra pequena e o tamanho tambem pode variar.
-    Campo editora: É um campo varchar de 20 casas pois o tamanho pode variar.
-    Campo preço: É um campo double pois é necessario valores reais para se informar o preço exato. <br>
-    Campo Numero: É um campo int pois so serão necessario 9 ou 8 numero para se identificar o numero do telefone. <br>
-    Campo rua: É um campo varchar de 25 casas pois o tamanho pode variar. <br>
-    Campo CEP: É um campo int pois so serao necessarios 8 numeros oara esse campo. <br>
-    Campo nome_Cidade: É um campo varchar de 15 casas pois o tamanho do nome pode variar de cidade para cidade. <br>
-    Campo nome_Estado: É um campo varchar de 2 casas pois apenas com dois caracteres pode se definir qual estado é. <br>
-    Campo nome_negocio: É um campo varchar de 25 casas pois o tamanho do nome pode variar. <br>
+	
 <br>
     
 ####5.3 DESCRIÇÃO DOS DADOS ****<br>
@@ -276,6 +258,26 @@ INSERT INTO Endereco (Cod_endereço,Numero,Rua,Cod_Negocio,CEP,id_Cidade,id_Esta
 <br>
 ###9	TABELAS E PRINCIPAIS CONSULTAS<br>
 ####9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS<br>
+![Alt text](http://imgur.com/dYt9PlO?raw=true "Title")<br>
+
+![Alt text](http://imgur.com/hepnbSw?raw=true "Title")<br>
+
+![Alt text](http://imgur.com/5yC9VD3?raw=true "Title")<br>
+
+![Alt text](http://imgur.com/BtEJDXe?raw=true "Title")<br>
+
+![Alt text](http://imgur.com/w625OwZ?raw=true "Title")<br>
+
+![Alt text](http://imgur.com/w625OwZ?raw=true "Title")<br>
+
+![Alt text](http://imgur.com/WdQ23Kr?raw=true "Title")<br>
+
+![Alt text](http://imgur.com/NdomKYh?raw=true "Title")<br>
+
+![Alt text](http://imgur.com/bW7GnGb?raw=true "Title")<br>
+
+![Alt text](http://imgur.com/NdomKYh?raw=true "Title")<br>
+
 ####9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE<br>
 ####9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS<br>
 ####9.4	CONSULTAS QUE USAM OPERADORES LIKE<br>
