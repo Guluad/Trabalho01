@@ -5,7 +5,8 @@ Trabalho desenvolvido durante a disciplina de BD
 
 ###1	COMPONENTES<br>
 Gustavo dos Santos Andrade<br>
-Luscas Sieleman<br>
+Luscas Sieleman eu sou viado
+<br>
 
 ###2	INTRODUÇÃO E MOTIVAÇAO<br>
 Foi decidido desenvolver o "Book Where" por livros serem uma coisa que tem um papel grande no dia a dia de muitas pessoas e o aplicativo iria facilitar encontrar o que deseja com facilidade e eficiênia. <br>
