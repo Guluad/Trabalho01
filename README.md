@@ -214,7 +214,9 @@ FOREIGN KEY (Cod_tipo) references contato (Cod_tipo)<br>
 
 <br>
 ###8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
-####8.1 DETALHAMENTO DAS INFORMAÇÕES
+####8.1 DETALHAMENTO DAS INFORMAÇÕES<br>
+As informações mostradas servem somente como demonstração, e somente os dados referentes às bibliotecas e livrarias são reais. Os demais dados são fictícios e não se comprometem com a realidade.<br>
+O projeto teve como fonte de estudo os exercícios realizados em sala de aula, os slides compartilhados no moodle e pesquisas feitas na internet.
 
 
 <br>        
