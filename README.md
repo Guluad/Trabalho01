@@ -58,6 +58,7 @@ Para utilizar o programa será necessario que o usuario crie uma conta, seram gu
     Campo CEP: É um campo int pois so serao necessarios 8 numeros oara esse campo. <br>
     Campo nome_Cidade: É um campo varchar de 15 casas pois o tamanho do nome pode variar de cidade para cidade. <br>
     Campo nome_Estado: É um campo varchar de 2 casas pois apenas com dois caracteres pode se definir qual estado é. <br>
+    Campo nome_negocio: É um campo varchar de 25 casas pois o tamanho do nome pode variar. <br>
 <br>
     
 ####5.3 DESCRIÇÃO DOS DADOS ****<br>
