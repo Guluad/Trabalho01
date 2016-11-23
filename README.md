@@ -41,7 +41,7 @@ Para utilizar o programa será necessario que o usuario crie uma conta, seram gu
     [Grupo01]: Brenda e Daniele.
     [Grupo02]: Julia e Camilla.
 
-####5.2 DECISÕES DE PROJETO  <br>
+####5.2 DECISÕES DE PROJETO ****
     Campo nome: É um campo varchar com 30 casas pois o tamanho do nome ppode variar de usuario para usuario. 
     <br>
     Campo login: É um campo varchar com 12 casas pois o tamanho do login pode variar, isso também limita seu tamanho. <br>
