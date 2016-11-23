@@ -34,8 +34,6 @@ Para utilizar o programa será necessario que o usuario crie uma conta, seram gu
 ###5	MODELO CONCEITUAL<br>
     5.1 NOTACAO ENTIDADE RELACIONAMENTO
 ![Alt text](http://i.imgur.com/Mfp1itA.jpg?raw=true "Modelo Conceitual")
-    
-    5.2 NOTACAO UML (Caso esteja fazendo a disciplina de analise)
 
 ####5.1 Validação do Modelo Conceitual
     [Grupo01]: Brenda e Daniele.
