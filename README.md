@@ -288,7 +288,6 @@ INSERT INTO Endereco (Cod_endereço,Numero,Rua,Cod_Negocio,CEP,id_Cidade,id_Esta
 ####9.9	CONSULTAS COM SELF JOIN E VIEW<br>
 ####9.10	SUBCONSULTAS<br>
 ###10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES<br>
-Link compartilhado: https://docs.google.com/presentation/d/1xzCj7mV9skWey2yII3jeysDsEE3ctvJ01Fg0X3H0iQA/edit?usp=sharing
 ###11	DIFICULDADES ENCONTRADAS PELO GRUPO<br>
 Alguns erros ocorridos com as chaves estrangeiras e em algumas consultas feitas. <br>
 ###12  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
