@@ -5,8 +5,7 @@ Trabalho desenvolvido durante a disciplina de BD
 
 ###1	COMPONENTES<br>
 Gustavo dos Santos Andrade<br>
-Luscas Sieleman eu sou viado
-<br>
+Luscas Sieleman<br>
 
 ###2	INTRODUÇÃO E MOTIVAÇAO<br>
 Foi decidido desenvolver o "Book Where" por livros serem uma coisa que tem um papel grande no dia a dia de muitas pessoas e o aplicativo iria facilitar encontrar o que deseja com facilidade e eficiênia. <br>
@@ -109,103 +108,110 @@ Tipo + Contato: tabela que armazena os contatos de cada local.<br>
 
 ###7	MODELO FÍSICO<br>
 
-CREATE TABLE livros (<br>
+create database if not exists BookWhere;<br>
 
-)<br>
+use BookWhere;<br>
 
-CREATE TABLE Usuario (<br>
-Nome Texto(1),<br>
-Login Texto(1),<br>
-Sexo Texto(1),<br>
-Email Texto(1),<br>
-Senha Texto(1),<br>
-Cod_Usuario Texto(1) PRIMARY KEY<br>
-)<br>
+CREATE TABLE if not exists Usuario<br>
+(<br>
+Nome varchar(30),<br>
+Login varchar(12),<br>
+Sexo varchar(1),<br>
+Email varchar(35),<br>
+Senha varchar(20),<br>
+Cod_endereço int,<br>
+Cod_Usuario int,<br>
+PRIMARY KEY (Cod_Usuario)<br>
+);<br>
 
-CREATE TABLE tipo+Contato (<br>
-Cod_tipo VARCHAR(10),<br>
-tipo_contado VARCHAR(10),<br>
-Descrição  VARCHAR(10),<br>
-Cod_contado VARCHAR(10),<br>
-PRIMARY KEY(Cod_tipo,Cod_contado)<br>
-)<br>
 
-CREATE TABLE Livro (<br>
-preço VARCHAR(10),<br>
-Cod_livro VARCHAR(10) PRIMARY KEY<br>
-)<br>
+create table if not exists local_negocio<br>
+(<br>
+nome_local varchar(40),<br>
+Cod_endereço int,<br>
+Cod_negocio int primary key<br>
+);<br>
 
-CREATE TABLE Endereço (<br>
-Cidade Texto(1),<br>
-Numero Texto(1),<br>
-Rua Texto(1),<br>
-Cod_endereço Texto(1) PRIMARY KEY,<br>
-Estado Texto(1),<br>
-CEP Texto(1),<br>
-id_Cidade VARCHAR(10),<br>
-id_Estado VARCHAR(10)<br>
-)<br>
 
-CREATE TABLE Estado (<br>
-nome VARCHAR(10),<br>
-id_Estado VARCHAR(10) PRIMARY KEY<br>
-)<br>
+CREATE TABLE if not exists Contato <br>
+(<br>
+Cod_tipo int,<br>
+tipo_contato VARCHAR(15),<br>
+Descrição VARCHAR(20),<br>
+Cod_negocio int,<br>
+PRIMARY KEY(Cod_tipo,Cod_negocio)<br>
+);<br>
 
-CREATE TABLE Cidade (<br>
-id_Cidade VARCHAR(10) PRIMARY KEY,<br>
-nome VARCHAR(10)<br>
-)<br>
 
-CREATE TABLE Exemplar (<br>
-Titulo Texto(1),<br>
-Autor Texto(1),<br>
-genero Texto(1),<br>
-Cod_exemplar Texto(1) PRIMARY KEY,<br>
-Editora Texto(1),<br>
-Cod_livro VARCHAR(10),<br>
-Cod_negocio Texto(1),<br>
-FOREIGN KEY(Cod_livro) REFERENCES Livro (Cod_livro)<br>
-)<br>
+CREATE TABLE if not exists Exemplar <br>
+(<br>
+Titulo varchar(40),<br>
+Autor varchar(25),<br>
+genero varchar(15),<br>
+Cod_exemplar int,<br>
+Editora varchar(20),<br>
+Cod_livro int,<br>
+Cod_negocio int,<br>
+PRIMARY KEY (Cod_Exemplar)<br>
+);<br>
 
-CREATE TABLE Local_negocio (<br>
-Nome Texto(1),<br>
-Cod_negocio Texto(1) PRIMARY KEY<br>
-)<br>
 
-CREATE TABLE Encontra (<br>
-Cod_Usuario Texto(1),<br>
-Cod_negocio Texto(1),<br>
-FOREIGN KEY(Cod_Usuario) REFERENCES Usuario (Cod_Usuario),<br>
-FOREIGN KEY(Cod_negocio) REFERENCES Local_negocio (Cod_negocio)<br>
-)<br>
+CREATE TABLE if not exists Livro <br>
+(<br>
+preço double,<br>
+Cod_livro int,<br>
+Cod_exemplar int,<br>
+FOREIGN KEY (Cod_Exemplar) REFERENCES Exemplar (Cod_exemplar)<br>
+);<br>
 
-CREATE TABLE Tem (<br>
-Cod_endereço Texto(1),<br>
-Cod_Usuario Texto(1),<br>
-FOREIGN KEY(Cod_endereço) REFERENCES Endereço (Cod_endereço),<br>
-FOREIGN KEY(Cod_Usuario) REFERENCES Usuario (Cod_Usuario)<br>
-)<br>
 
-CREATE TABLE possui (<br>
-Cod_tipo VARCHAR(10),<br>
-Cod_contado VARCHAR(10),<br>
-Cod_negocio Texto(1),<br>
-FOREIGN KEY(Cod_contado,,) REFERENCES tipo+Contato (Cod_tipo,Cod_contado),<br>
-FOREIGN KEY(Cod_negocio) REFERENCES Local_negocio (Cod_negocio)<br>
-)<br>
+CREATE TABLE if not exists Cidade <br>
+(<br>
+nome_Cidade VARCHAR(15),<br>
+id_Cidade int primary key<br>
+);<br>
 
-CREATE TABLE Está em (<br>
-Cod_endereço Texto(1),<br>
-Cod_negocio Texto(1),<br>
-FOREIGN KEY(Cod_endereço) REFERENCES Endereço (Cod_endereço),<br>
-FOREIGN KEY(Cod_negocio) REFERENCES Local_negocio (Cod_negocio)<br>
-)<br>
 
-ALTER TABLE Endereço ADD FOREIGN KEY(id_Cidade) REFERENCES Cidade (id_Cidade)<br>
-ALTER TABLE Endereço ADD FOREIGN KEY(id_Estado) REFERENCES Estado (id_Estado)<br>
-ALTER TABLE Exemplar ADD FOREIGN KEY(Cod_negocio) REFERENCES Local_negocio (Cod_negocio)<br>
+CREATE TABLE if not exists Estado <br>
+(<br>
+nome_Estado VARCHAR(2),<br>
+id_Estado int primary key<br>
+);<br>
 
-Arquivo sql com modelo físico: https://mega.nz/#!AZ4BBDDB!AGNUyeDZ1Y52Zna6EEizESMwu14g4ZPGwE7bz0ilVgo<br>
+
+CREATE TABLE if not exists Endereco <br>
+(<br>
+Cod_endereço int,<br>
+Numero int,<br>
+Rua varchar(25),<br>
+Cod_negocio int,<br>
+CEP int,<br>
+id_Cidade int,<br>
+id_Estado int,<br>
+FOREIGN KEY (Cod_negocio) REFERENCES local_negocio (Cod_negocio),<br>
+FOREIGN KEY (id_Cidade) REFERENCES Cidade (id_Cidade),<br>
+FOREIGN KEY (id_Estado) REFERENCES Estado (id_Estado)<br>
+);<br>
+
+
+CREATE TABLE if not exists Encontra <br>
+(<br>
+Cod_Usuario int,<br>
+Cod_negocio int,<br>
+FOREIGN KEY (Cod_Usuario) REFERENCES Usuario (Cod_Usuario),<br>
+FOREIGN KEY (Cod_negocio) REFERENCES local_negocio (Cod_negocio)<br>
+);<br>
+
+
+CREATE TABLE if not exists possui <br>
+(<br>
+Cod_tipo int,<br>
+Cod_negocio int,<br>
+PRIMARY KEY (Cod_tipo,Cod_negocio),<br>
+FOREIGN KEY(Cod_negocio) REFERENCES local_negocio (Cod_negocio),<br>
+FOREIGN KEY (Cod_tipo) references contato (Cod_tipo)<br>
+);<br>
+
 <br>
 ###8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 ####8.1 DETALHAMENTO DAS INFORMAÇÕES
