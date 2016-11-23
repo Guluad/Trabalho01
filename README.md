@@ -5,7 +5,7 @@ Trabalho desenvolvido durante a disciplina de BD
 
 ###1	COMPONENTES<br>
 Gustavo dos Santos Andrade<br>
-Luscas Sieleman<br>
+Lucas Sieleman<br>
 
 ###2	INTRODUÇÃO E MOTIVAÇAO<br>
 Foi decidido desenvolver o "Book Where" por livros serem uma coisa que tem um papel grande no dia a dia de muitas pessoas e o aplicativo iria facilitar encontrar o que deseja com facilidade e eficiênia. <br>
@@ -214,9 +214,7 @@ FOREIGN KEY (Cod_tipo) references contato (Cod_tipo)<br>
 
 <br>
 ###8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
-####8.1 DETALHAMENTO DAS INFORMAÇÕES<br>
-As informações mostradas servem somente como demonstração, e somente os dados referentes às bibliotecas e livrarias são reais. Os demais dados são fictícios e não se comprometem com a realidade.<br>
-O projeto teve como fonte de estudo os exercícios realizados em sala de aula, os slides compartilhados no moodle e pesquisas feitas na internet.
+####8.1 DETALHAMENTO DAS INFORMAÇÕES
 
 
 <br>        
