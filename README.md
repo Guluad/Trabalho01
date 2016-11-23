@@ -215,17 +215,63 @@ FOREIGN KEY (Cod_tipo) references contato (Cod_tipo)<br>
 <br>
 ###8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 ####8.1 DETALHAMENTO DAS INFORMAÇÕES
-        Detalhamento sobre as informações e processo de obtenção ou geração dos dados.
-        Referenciar todas as fontes referentes a :
-        a) obtenção dos dados
-        b) obtenção de códigos reutilizados
-        c) fontes de estudo para desenvolvimento do projeto
-        
-####8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
-        a) inclusão das instruções para criação das tabelas e estruturas de amazenamento do BD
-        b) inclusão das instruções de inserção dos dados nas referidas tabelas
-        c) inclusão das instruções para execução de outros procedimentos necessários
 
+
+<br>        
+####8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS<br>
+INSERT INTO Usuario (Nome,Login,Sexo,Email,Senha,Cod_endereço,Cod_Usuario) values<br>
+('Camila Volponi', 'camilaV19','F','camilavolponi19@hotmail.com','psodjsf',003,001),<br>
+('Gustavo Andrade','gugu662','M','guguadrade662@outlook.com','odjfbop',002,002),<br>
+('Ricardo Ferreira','rico_2099','M','eu_sou_rico@gmail.com','ufstkjnfnh',001,003);<br>
+
+INSERT INTO Contato(Cod_tipo,tipo_contato,Descrição,Cod_negocio) values<br>
+(1,'Facebook','Saraiva Online',001),<br>
+(1,'Facebook','Livraria Leitura',002),<br>
+(2,'Telefone',2731379351,003);<br>
+
+
+INSERT INTO Exemplar (Titulo,Autor,genero,Cod_exemplar,Editora,Cod_livro,Cod_negocio) values<br>
+('Inferno','Dan Brown','Romance',666,'Arqueiro',626,002),<br>
+('O Comitê da Morte','Noah Gordon','Romance',886,'Rocco',222,001),<br>
+('O Diabo dos Números','Hans Magnus Enzensberger','Infanto-juvenil',333,'Seguinte',556,003);<br>
+
+
+INSERT INTO Livro (preço,Cod_livro,Cod_exemplar) values<br>
+(40.90,626,666),<br>
+(29.99,222,886),<br>
+(30.00,556,333);<br>
+
+INSERT INTO Cidade (nome_Cidade,id_Cidade) values<br>
+('Rio de Janeiro',22),<br>
+('Uberlândia',31),<br>
+('Vitória',10);<br>
+
+
+INSERT INTO Estado (nome_Estado,id_Estado) values<br>
+('RJ',4),<br>
+('MG',6),<br>
+('ES',2);<br>
+
+INSERT INTO Local_negocio (nome_local,Cod_endereço,Cod_negocio) values<br>
+('Livraria Saraiva MegaStore',002,100),<br>
+('Livraria Leitura',001,200),<br>
+('Biblioteca Púlica Estadual',003,300);<br>
+
+INSERT INTO Encontra (Cod_Usuario,Cod_negocio) values<br>
+(001,100),<br>
+(002,200),<br>
+(003,300);<br>
+
+INSERT INTO possui (Cod_tipo,Cod_negocio) values<br>
+(1,100),<br>
+(1,200),<br>
+(2,300);<br>
+
+INSERT INTO Endereco (Cod_endereço,Numero,Rua,Cod_Negocio,CEP,id_Cidade,id_Estado) values<br>
+(001,165,'Av.João Batista Parra',300,29050375,10,2),<br>
+(002,131,'Av. João Naves de Ávila',200,38400100,31,6),<br>
+(003,240,'Rua Fonseca',100,27185478,22,4);<br>
+<br>
 ###9	TABELAS E PRINCIPAIS CONSULTAS<br>
 ####9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS<br>
 ####9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE<br>
