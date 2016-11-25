@@ -101,7 +101,7 @@ O projeto teve como fonte de estudo os exercícios realizados em sala de aula, o
 <br>        
 ####8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS<br>
 
-![Insert](https://github.com/Guluad/Trabalho01/blob/master/InsertFinal.sql?)
+![Insert](https://github.com/Guluad/Trabalho01/blob/master/InsertFinal.sql?raw=true "Insert")
 
 <br>
 ###9	TABELAS E PRINCIPAIS CONSULTAS<br>
