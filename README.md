@@ -11,7 +11,7 @@ Lucas Sieleman<br>
 Foi decidido desenvolver o "Book Where" por livros serem uma coisa que tem um papel grande no dia a dia de muitas pessoas e o aplicativo iria facilitar encontrar o que deseja com facilidade e eficiênia. <br>
     
 ###3	MINI-MUNDO<br>
-Para utilizar o programa será necessario que o usuario crie uma conta, seram guardadas informações pessoais do usuario. Possuindo a conta o usuario poderá acessar o programa e pesquisar o livro que  deseja. No bando de dados haverá todos os locais que o livro está disponivel e isso será mostrado ao usuario, ele pode salvar essa informação para poder ir ao local futuramente. <br>
+O projeto reúne informações de bibliotecas, livrarias e sebos referente a livros, permitindo que o usuário pesquise por um livro e obtenha a informação de onde (quais livrarias, sebos e/ou bibliotecas) encontrá-los. Para utilizá-lo será necessario que o usuario crie uma conta, e assim serão guardadas suas informações pessoais, sobretudo suas pesquisas já realizadas e o local de onde acessa o computador. Possuindo a conta, o usuario poderá acessar o programa e pesquisar o livro que deseja. No banco de dados haverá todos os locais em que o livro está disponivel e isso será mostrado ao usuario. Ele poderá salvar essas informações para visitar ao local futuramente. <br>
 
 ###4	RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 
@@ -40,6 +40,8 @@ Para utilizar o programa será necessario que o usuario crie uma conta, seram gu
     [Grupo02]: Julia e Camilla.
 
 ####5.2 DECISÕES DE PROJETO ****
+
+Foi criada uma tabela "Exemplar" além da tabela "Livro", considerando que livros iguais podem ter diferentes valores de acordo com o local, seu estado de conservação e material.
 	
 <br>
     
