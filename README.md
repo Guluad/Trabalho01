@@ -86,114 +86,14 @@ Tipo + Contato: tabela que armazena os contatos de cada local.<br>
 	Descrição: campo que armazena o contato efetivamente.<br>
 <br>
 ###6	MODELO LÓGICO<br>
-![Alt text](http://i.imgur.com/Dtz37wW.jpg?raw=true "Modelo Lógico")
+
 
 ###7	MODELO FÍSICO<br>
 
 create database if not exists BookWhere;<br>
 
-use BookWhere;<br>
-
-CREATE TABLE if not exists Usuario<br>
-(<br>
-Nome varchar(30),<br>
-Login varchar(12),<br>
-Sexo varchar(1),<br>
-Email varchar(35),<br>
-Senha varchar(20),<br>
-Cod_endereço int,<br>
-Cod_Usuario int,<br>
-PRIMARY KEY (Cod_Usuario)<br>
-);<br>
-
-
-create table if not exists local_negocio<br>
-(<br>
-nome_local varchar(40),<br>
-Cod_endereço int,<br>
-Cod_negocio int primary key<br>
-);<br>
-
-
-CREATE TABLE if not exists Contato <br>
-(<br>
-Cod_tipo int,<br>
-tipo_contato VARCHAR(15),<br>
-Descrição VARCHAR(20),<br>
-Cod_negocio int,<br>
-PRIMARY KEY(Cod_tipo,Cod_negocio)<br>
-);<br>
-
-
-CREATE TABLE if not exists Exemplar <br>
-(<br>
-Titulo varchar(40),<br>
-Autor varchar(25),<br>
-genero varchar(15),<br>
-Cod_exemplar int,<br>
-Editora varchar(20),<br>
-Cod_livro int,<br>
-Cod_negocio int,<br>
-PRIMARY KEY (Cod_Exemplar)<br>
-);<br>
-
-
-CREATE TABLE if not exists Livro <br>
-(<br>
-preço double,<br>
-Cod_livro int,<br>
-Cod_exemplar int,<br>
-FOREIGN KEY (Cod_Exemplar) REFERENCES Exemplar (Cod_exemplar)<br>
-);<br>
-
-
-CREATE TABLE if not exists Cidade <br>
-(<br>
-nome_Cidade VARCHAR(15),<br>
-id_Cidade int primary key<br>
-);<br>
-
-
-CREATE TABLE if not exists Estado <br>
-(<br>
-nome_Estado VARCHAR(2),<br>
-id_Estado int primary key<br>
-);<br>
-
-
-CREATE TABLE if not exists Endereco <br>
-(<br>
-Cod_endereço int,<br>
-Numero int,<br>
-Rua varchar(25),<br>
-Cod_negocio int,<br>
-CEP int,<br>
-id_Cidade int,<br>
-id_Estado int,<br>
-FOREIGN KEY (Cod_negocio) REFERENCES local_negocio (Cod_negocio),<br>
-FOREIGN KEY (id_Cidade) REFERENCES Cidade (id_Cidade),<br>
-FOREIGN KEY (id_Estado) REFERENCES Estado (id_Estado)<br>
-);<br>
-
-
-CREATE TABLE if not exists Encontra <br>
-(<br>
-Cod_Usuario int,<br>
-Cod_negocio int,<br>
-FOREIGN KEY (Cod_Usuario) REFERENCES Usuario (Cod_Usuario),<br>
-FOREIGN KEY (Cod_negocio) REFERENCES local_negocio (Cod_negocio)<br>
-);<br>
-
-
-CREATE TABLE if not exists possui <br>
-(<br>
-Cod_tipo int,<br>
-Cod_negocio int,<br>
-PRIMARY KEY (Cod_tipo,Cod_negocio),<br>
-FOREIGN KEY(Cod_negocio) REFERENCES local_negocio (Cod_negocio),<br>
-FOREIGN KEY (Cod_tipo) references contato (Cod_tipo)<br>
-);<br>
-
+![Alt text](https://github.com/Guluad/Trabalho01/blob/master/BookWhereFinal.sql?raw=true "Modelo Lógico")
+<br>
 <br>
 ###8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 ####8.1 DETALHAMENTO DAS INFORMAÇÕES
