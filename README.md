@@ -92,8 +92,8 @@ Tipo + Contato: tabela que armazena os contatos de cada local.<br>
 
 create database if not exists BookWhere;<br>
 
-![Alt text](https://github.com/Guluad/Trabalho01/blob/master/BookWhereFinal.sql?raw=true "Modelo Lógico")
-<br>
+![Alt text](https://github.com/Guluad/Trabalho01/blob/master/BookWhereFinal.sql?raw=true "Database")
+
 <br>
 ###8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 ####8.1 DETALHAMENTO DAS INFORMAÇÕES
