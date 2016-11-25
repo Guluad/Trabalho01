@@ -97,8 +97,7 @@ Tipo + Contato: tabela que armazena os contatos de cada local.<br>
 ####8.1 DETALHAMENTO DAS INFORMAÇÕES
 As informações mostradas servem somente como demonstração, e somente os dados referentes às bibliotecas e livrarias são reais. Os demais dados são fictícios e não se comprometem com a realidade.<br>
 O projeto teve como fonte de estudo os exercícios realizados em sala de aula, os slides compartilhados no moodle e pesquisas feitas na internet.
-
-<br>        
+       
 ####8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS<br>
 
 ![Insert](https://github.com/Guluad/Trabalho01/blob/master/InsertFinal.sql?raw=true "Insert")
@@ -106,26 +105,6 @@ O projeto teve como fonte de estudo os exercícios realizados em sala de aula, o
 <br>
 ###9	TABELAS E PRINCIPAIS CONSULTAS<br>
 ####9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS<br>
-![Alt text](http://imgur.com/dYt9PlO?raw=true "Title")<br>
-
-![Alt text](http://imgur.com/hepnbSw?raw=true "Title")<br>
-
-![Alt text](http://imgur.com/5yC9VD3?raw=true "Title")<br>
-
-![Alt text](http://imgur.com/BtEJDXe?raw=true "Title")<br>
-
-![Alt text](http://imgur.com/w625OwZ?raw=true "Title")<br>
-
-![Alt text](http://imgur.com/w625OwZ?raw=true "Title")<br>
-
-![Alt text](http://imgur.com/WdQ23Kr?raw=true "Title")<br>
-
-![Alt text](http://imgur.com/NdomKYh?raw=true "Title")<br>
-
-![Alt text](http://imgur.com/bW7GnGb?raw=true "Title")<br>
-
-![Alt text](http://imgur.com/NdomKYh?raw=true "Title")<br>
-
 ####9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE<br>
 ####9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS<br>
 ####9.4	CONSULTAS QUE USAM OPERADORES LIKE<br>
