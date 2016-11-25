@@ -90,8 +90,6 @@ Tipo + Contato: tabela que armazena os contatos de cada local.<br>
 
 ###7	MODELO FÍSICO<br>
 
-create database if not exists BookWhere;<br>
-
 ![Alt text](https://github.com/Guluad/Trabalho01/blob/master/BookWhereFinal.sql?raw=true "Database")
 
 <br>
