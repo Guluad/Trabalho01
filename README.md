@@ -90,14 +90,13 @@ Tipo + Contato: tabela que armazena os contatos de cada local.<br>
 
 ###7	MODELO FÍSICO<br>
 
-![Alt text](https://github.com/Guluad/Trabalho01/blob/master/BookWhereFinal.sql?raw=true "Database")
+![Database](https://github.com/Guluad/Trabalho01/blob/master/BookWhereFinal.sql?raw=true "Database")
 
 <br>
 ###8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 ####8.1 DETALHAMENTO DAS INFORMAÇÕES
 As informações mostradas servem somente como demonstração, e somente os dados referentes às bibliotecas e livrarias são reais. Os demais dados são fictícios e não se comprometem com a realidade.<br>
-O projeto teve como fonte de estudo os exercícios realizados em sala de aula, os slides compartilhados no moodle e pesquisas feitas na internet.<br>
-
+O projeto teve como fonte de estudo os exercícios realizados em sala de aula, os slides compartilhados no moodle e pesquisas feitas na internet.
 
 <br>        
 ####8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS<br>
