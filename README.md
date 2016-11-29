@@ -122,6 +122,11 @@ O projeto teve como fonte de estudo os exercícios realizados em sala de aula, o
 ![Consulta](http://i.imgur.com/FsKwYUT.png?raw=true "Consulta")<br>
 
 ####9.4	CONSULTAS QUE USAM OPERADORES LIKE<br>
+
+![Consulta](http://i.imgur.com/hcHSaDn.png?raw=true "Consulta")<br>
+![Consulta](http://i.imgur.com/oXXBSO1.png?raw=true "Consulta")<br>
+![Consulta](http://i.imgur.com/3PsKEKv.png?raw=true "Consulta")<br>
+
 ####9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS<br>
 ####9.6	CONSULTAS COM JUNÇÃO<br>
 ####9.7	CONSULTAS COM GROUP BY<br>
