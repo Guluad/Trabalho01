@@ -111,6 +111,11 @@ O projeto teve como fonte de estudo os exercícios realizados em sala de aula, o
 ![Consulta](http://i.imgur.com/0eSyZwj.png?raw=true "Consulta")<br>
 
 ####9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE<br>
+
+![Consulta](http://i.imgur.com/1wDe4c7.png?raw=true "Consulta")<br>
+![Consulta](http://i.imgur.com/j5eQOGp.png?raw=true "Consulta")<br>
+![Consulta](http://i.imgur.com/Brodzm2.png?raw=true "Consulta")<br>
+
 ####9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS<br>
 ####9.4	CONSULTAS QUE USAM OPERADORES LIKE<br>
 ####9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS<br>
