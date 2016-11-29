@@ -135,7 +135,18 @@ O projeto teve como fonte de estudo os exercícios realizados em sala de aula, o
 ####9.6	CONSULTAS COM JUNÇÃO<br>
 ####9.7	CONSULTAS COM GROUP BY<br>
 ####9.8	CONSULTAS COM LEFT E RIGHT JOIN<br>
+
+![Consulta](http://i.imgur.com/Uf2qCbe.png?raw=true "Consulta")<br>
+![Consulta](http://i.imgur.com/MwYrPm6.png?raw=true "Consulta")<br>
+![Consulta](http://i.imgur.com/6FYWJzl.png?raw=true "Consulta")<br>
+![Consulta](http://i.imgur.com/EQ1XHdJ.png?raw=true "Consulta")<br>
+
 ####9.9	CONSULTAS COM SELF JOIN E VIEW<br>
+
+![Consulta](http://i.imgur.com/OE9Nxim.png?raw=true "Consulta")<br>
+![Consulta](http://i.imgur.com/SyGqQXC.png?raw=true "Consulta")<br>
+![Consulta](http://i.imgur.com/Kg0mU0T.png?raw=true "Consulta")<br>
+
 ####9.10	SUBCONSULTAS<br>
 
 ![Consulta](http://i.imgur.com/1tkC3Op.png?raw=true "Consulta")<br>
