@@ -99,6 +99,17 @@ O projeto teve como fonte de estudo os exercícios realizados em sala de aula, o
 ![Consultas](https://github.com/Guluad/Trabalho01/blob/master/Consultas29%20(2).sql?raw=true "Consultas")<br>
 
 ####9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS<br>
+
+![Consulta](http://imgur.com/hZsCf41?raw=true "Consulta")<br>
+![Consulta](http://imgur.com/qo6dUzl?raw=true "Consulta")<br>
+![Consulta](http://imgur.com/EYKzOK5?raw=true "Consulta")<br>
+![Consulta](http://imgur.com/EiGMN12?raw=true "Consulta")<br>
+![Consulta](http://imgur.com/YtkqTPy?raw=true "Consulta")<br>
+![Consulta](http://imgur.com/Vsh5iIB?raw=true "Consulta")<br>
+![Consulta](http://imgur.com/wKtJrd6?raw=true "Consulta")<br>
+![Consulta](http://imgur.com/lpK9o52?raw=true "Consulta")<br>
+![Consulta](http://imgur.com/0eSyZwj?raw=true "Consulta")<br>
+
 ####9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE<br>
 ####9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS<br>
 ####9.4	CONSULTAS QUE USAM OPERADORES LIKE<br>
