@@ -96,7 +96,7 @@ O projeto teve como fonte de estudo os exercícios realizados em sala de aula, o
 <br>
 ###9	TABELAS E PRINCIPAIS CONSULTAS<br>
 
-![Consultas](https://github.com/Guluad/Trabalho01/blob/master/Consultas29.sql?raw=true "Consultas")<br>
+![Consultas](https://github.com/Guluad/Trabalho01/blob/master/Consultas29%20(2).sql?raw=true "Consultas")<br>
 
 ####9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS<br>
 ####9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE<br>
