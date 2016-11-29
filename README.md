@@ -137,6 +137,11 @@ O projeto teve como fonte de estudo os exercícios realizados em sala de aula, o
 ####9.8	CONSULTAS COM LEFT E RIGHT JOIN<br>
 ####9.9	CONSULTAS COM SELF JOIN E VIEW<br>
 ####9.10	SUBCONSULTAS<br>
+
+![Consulta](http://i.imgur.com/1tkC3Op.png?raw=true "Consulta")<br>
+![Consulta](http://i.imgur.com/rwyWkUB.png?raw=true "Consulta")<br>
+![Consulta](http://i.imgur.com/WPSNj2E.png?raw=true "Consulta")<br>
+
 ###10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES<br>
 ###11	DIFICULDADES ENCONTRADAS PELO GRUPO<br>
 Alguns erros ocorridos com as chaves estrangeiras e em algumas consultas feitas. <br>
