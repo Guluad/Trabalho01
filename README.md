@@ -95,7 +95,7 @@ Tipo + Contato: tabela que armazena os contatos de cada local.<br>
 
 ###7	MODELO FÍSICO<br>
 
-![Database](https://github.com/Guluad/Trabalho01/blob/master/BookWhereFinal.sql?raw=true "Database")
+![Database](https://github.com/Guluad/Trabalho01/blob/master/BookWhereFinal29.sql?raw=true "Database")
 
 <br>
 ###8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
@@ -105,10 +105,13 @@ O projeto teve como fonte de estudo os exercícios realizados em sala de aula, o
        
 ####8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS<br>
 
-![Insert](https://github.com/Guluad/Trabalho01/blob/master/InsertFinal.sql?raw=true "Insert")
+![Insert](https://github.com/Guluad/Trabalho01/blob/master/Insert29.sql?raw=true "Insert")
 
 <br>
 ###9	TABELAS E PRINCIPAIS CONSULTAS<br>
+
+![Consultas](https://github.com/Guluad/Trabalho01/blob/master/Consultas29.sql?raw=true "Consultas")<br>
+
 ####9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS<br>
 ####9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE<br>
 ####9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS<br>
