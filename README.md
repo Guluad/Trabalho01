@@ -35,7 +35,7 @@ O projeto reúne informações de bibliotecas, livrarias e sebos referente a liv
     5.1 NOTACAO ENTIDADE RELACIONAMENTO
 ![Modelo Conceitual](http://i.imgur.com/Mfp1itA.jpg?raw=true "Modelo Conceitual")<br>
     5.2 NOTACAO UML
-![UML](http://i.imgur.com/Mfp1itA.jpg?raw=true "UML")
+![UML](http://i.imgur.com/sjFQzBo.png?raw=true "UML")
 <br>
 ####5.1 Validação do Modelo Conceitual
     [Grupo01]: Brenda e Daniele.
