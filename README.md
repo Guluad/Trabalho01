@@ -100,7 +100,7 @@ O projeto teve como fonte de estudo os exercícios realizados em sala de aula, o
 
 ####9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS<br>
 
-![Consulta](http://imgur.com/hZsCf41?raw=true "Consulta")<br>
+![Consulta](http://i.imgur.com/hZsCf41.png?raw=true "Consulta")<br>
 ![Consulta](http://imgur.com/qo6dUzl?raw=true "Consulta")<br>
 ![Consulta](http://imgur.com/EYKzOK5?raw=true "Consulta")<br>
 ![Consulta](http://imgur.com/EiGMN12?raw=true "Consulta")<br>
