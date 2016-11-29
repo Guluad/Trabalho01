@@ -33,8 +33,10 @@ O projeto reúne informações de bibliotecas, livrarias e sebos referente a liv
 
 ###5	MODELO CONCEITUAL<br>
     5.1 NOTACAO ENTIDADE RELACIONAMENTO
-![Alt text](http://i.imgur.com/Mfp1itA.jpg?raw=true "Modelo Conceitual")
-
+![Modelo Conceitual](http://i.imgur.com/Mfp1itA.jpg?raw=true "Modelo Conceitual")<br>
+    5.2 NOTACAO UML
+![UML](http://i.imgur.com/Mfp1itA.jpg?raw=true "UML")
+<br>
 ####5.1 Validação do Modelo Conceitual
     [Grupo01]: Brenda e Daniele.
     [Grupo02]: Julia e Camilla.
@@ -89,6 +91,7 @@ Tipo + Contato: tabela que armazena os contatos de cada local.<br>
 <br>
 ###6	MODELO LÓGICO<br>
 
+![Logico](http://i.imgur.com/lbA546f.png?raw=true "Logico")
 
 ###7	MODELO FÍSICO<br>
 
