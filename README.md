@@ -15,21 +15,7 @@ O projeto reúne informações de bibliotecas, livrarias e sebos referente a liv
 
 ###4	RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 
-![Alt text](http://i.imgur.com/jk81RPh.png?raw=true "Title")
-![Alt text](http://i.imgur.com/aFsP4nC.png?raw=true "Title")
-![Alt text](http://i.imgur.com/tuJMUDh.png?raw=true "Title")
-![Alt text](http://i.imgur.com/mBWQ0Dq.png?raw=true "Title")
-![Alt text](http://i.imgur.com/6xT1Mue.png?raw=true "Title")
-![Alt text](http://i.imgur.com/LzXVrIl.png?raw=true "Title")
-![Alt text](http://i.imgur.com/16X7cdQ.png?raw=true "Title")
-![Alt text](http://i.imgur.com/UdCawvI.png?raw=true "Title")
-![Alt text](http://i.imgur.com/BuUXudq.png?raw=true "Title")
-![Alt text](http://i.imgur.com/tam6KIv.png?raw=true "Title")
-![Alt text](http://i.imgur.com/d2xfPbg.png?raw=true "Title")
-![Alt text](http://i.imgur.com/v9wxFp4.png?raw=true "Title")
-![Alt text](http://i.imgur.com/x1Uj3gP.png?raw=true "Title")
-![Alt text](http://i.imgur.com/LTeWAZG.png?raw=true "Title")
-![Alt text](http://i.imgur.com/HJ4tgeT.png?raw=true "Title")
+![MOCKUPS](https://github.com/Guluad/Trabalho01/blob/master/NewProject.pdf?raw=true "MOCKUPS")<br>
 
 ###5	MODELO CONCEITUAL<br>
     5.1 NOTACAO ENTIDADE RELACIONAMENTO
