@@ -216,9 +216,10 @@ select * from livro where preço = (select min(preço) from livro);<br>
 ![Consulta](http://i.imgur.com/WPSNj2E.png?raw=true "Consulta")<br>
 
 ###10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES<br>
-###11	DIFICULDADES ENCONTRADAS PELO GRUPO<br>
+###11	Trabalho de Redes Sociais<br>
+###12	DIFICULDADES ENCONTRADAS PELO GRUPO<br>
 Alguns erros ocorridos com as chaves estrangeiras e em algumas consultas feitas. <br>
-###12  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
+###13  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
 
 
 
