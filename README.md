@@ -217,8 +217,8 @@ select * from livro where preço = (select min(preço) from livro);<br>
 
 ###10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES<br>
 ###11	Trabalho de Redes Sociais<br>
-https://github.com/Guluad/Trabalho01/blob/master/database.py<br>
-https://github.com/Guluad/Trabalho01/blob/master/search.py<br>
+![DataBase](https://github.com/Guluad/Trabalho01/blob/master/database.py?raw=true "DataBase")<br>
+![Search](https://github.com/Guluad/Trabalho01/blob/master/search.py?raw=true "Search")<br>
 
 ###12	DIFICULDADES ENCONTRADAS PELO GRUPO<br>
 Alguns erros ocorridos com as chaves estrangeiras e em algumas consultas feitas. <br>
