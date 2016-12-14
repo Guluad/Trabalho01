@@ -1,10 +1,10 @@
 import tweepy
 import Data as db
 
-consumer_key = "9fypUzEK5LcevhvPTAaB1075c"
-consumer_secret = "uA30dqCXcJpBMfdTKFGf4UVTz3bOHFleTFRJVqZdPpsJNGTQLI"
-access_token = "808707793641492481-C2YBjh2TeH4TOygGfoUe1wBrdZJD6na"
-access_token_secret = "2oC7X9NgFRHwjjt2U0iaXmsV2LYxy0bVfjFLYupC36GjT"
+consumer_key = "[chaves_do_usuario]"
+consumer_secret = "[chaves_do_usuario]"
+access_token = "[chaves_do_usuario]"
+access_token_secret = "[chaves_do_usuario]"
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
