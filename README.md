@@ -99,53 +99,73 @@ O projeto teve como fonte de estudo os exercícios realizados em sala de aula, o
 ![Consultas](https://github.com/Guluad/Trabalho01/blob/master/Consultas29%20(2).sql?raw=true "Consultas")<br>
 
 ####9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS<br>
-select * from Usuario;
+
+select * from Usuario;<br>
 ![Consulta](http://i.imgur.com/hZsCf41.png?raw=true "Consulta")<br>
-select * from Contato;
+select * from Contato;<br>
 ![Consulta](http://i.imgur.com/qo6dUzl.png?raw=true "Consulta")<br>
-select * from Exemplar;
+select * from Exemplar;<br>
 ![Consulta](http://i.imgur.com/EYKzOK5.png?raw=true "Consulta")<br>
-select * from Livro;
+select * from Livro;<br>
 ![Consulta](http://i.imgur.com/EiGMN12.png?raw=true "Consulta")<br>
-select * from Endereco;
+select * from Endereco;<br>
 ![Consulta](http://i.imgur.com/YtkqTPy.png?raw=true "Consulta")<br>
 select * from Cidade;
 ![Consulta](http://i.imgur.com/Vsh5iIB.png?raw=true "Consulta")<br>
-select * from Estado;
+select * from Estado;<br>
 ![Consulta](http://i.imgur.com/wKtJrd6.png?raw=true "Consulta")<br>
-select * from Encontra;
+select * from Encontra;<br>
 ![Consulta](http://i.imgur.com/lpK9o52.png?raw=true "Consulta")<br>
-select * from Possui;
+select * from Possui;<br>
 ![Consulta](http://i.imgur.com/0eSyZwj.png?raw=true "Consulta")<br>
 
 ####9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE<br>
 
+select * from Usuario where sexo = 'M';<br>
 ![Consulta](http://i.imgur.com/1wDe4c7.png?raw=true "Consulta")<br>
+select * from Exemplar where genero = 'Aventura';<br>
 ![Consulta](http://i.imgur.com/j5eQOGp.png?raw=true "Consulta")<br>
+select * from Contato where tipo_contato = 'Facebook';
 ![Consulta](http://i.imgur.com/Brodzm2.png?raw=true "Consulta")<br>
 
 ####9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS<br>
 
+select * from Endereco where Numero > 160;<br>
 ![Consulta](http://i.imgur.com/IJ3GkWG.png?raw=true "Consulta")<br>
+select nome_cidade as Nome from Cidade where id_Cidade > 004;<br>
 ![Consulta](http://i.imgur.com/FsKwYUT.png?raw=true "Consulta")<br>
 
 ####9.4	CONSULTAS QUE USAM OPERADORES LIKE<br>
 
+select * from Usuario where Nome like 'R%';<br>
 ![Consulta](http://i.imgur.com/hcHSaDn.png?raw=true "Consulta")<br>
+select * from Usuario where Email like '%hotmail%';<br>
 ![Consulta](http://i.imgur.com/oXXBSO1.png?raw=true "Consulta")<br>
+select * from Exemplar where Titulo like 'In%';<br>
 ![Consulta](http://i.imgur.com/3PsKEKv.png?raw=true "Consulta")<br>
 
 ####9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS<br>
 
+update Exemplar set Titulo = 'Ceu' where genero = 'Romance';<br>
+update Usuario set Sexo = 'F' where login = 'rico_2099';<br>
+update Usuario set Login = 'guluad' where Nome = 'Gustavo Andrade';<br>
 ![Consulta](http://i.imgur.com/ci5ZY20.png?raw=true "Consulta")<br>
+delete from Contato where tipo_contato = 'Facebook';<br>
+delete from Contato where Descrição = 'Saraiva Online';<br>
+delete from local_negocio where nome_local = 'Livraria Saraiva MegaStore';<br>
 ![Consulta](http://i.imgur.com/eKNOBPG.png?raw=true "Consulta")<br>
 
 ####9.6	CONSULTAS COM JUNÇÃO<br>
 
+select nome_local,nome_Cidade,Nome_Estado,Rua,Numero,CEP from endereco join local_negocio on (local_negocio.Cod_endereço = endereco.Cod_endereço) join cidade on (endereco.id_Cidade = cidade.id_Cidade) join estado on (endereco.id_Estado = estado.id_Estado);<br>
 ![Consulta](http://i.imgur.com/GKzB9Xa.png?raw=true "Consulta")<br>
+select * from Exemplar join livro on (Exemplar.Cod_Exemplar = livro.Cod_Exemplar);<br>
 ![Consulta](http://i.imgur.com/PCidQxm.png?raw=true "Consulta")<br>
+select nome_local,tipo_contato,descrição from possui join local_negocio on (local_negocio.Cod_negocio = possui.Cod_negocio) join contato on (contato.Cod_tipo = possui.Cod_tipo);<br>
 ![Consulta](http://i.imgur.com/O8jUMsx.png?raw=true "Consulta")<br>
+select nome,nome_local from Encontra join usuario on (usuario.Cod_usuario = Encontra.Cod_usuario) join local_negocio on (local_negocio.Cod_negocio = Encontra.Cod_negocio);
 ![Consulta](http://i.imgur.com/azqJM2P.png?raw=true "Consulta")<br>
+select Nome,nome_Cidade,Nome_Estado,Rua,Numero,CEP from endereco join usuario on (usuario.Cod_endereço = endereco.Cod_endereço) join cidade on (endereco.id_Cidade = cidade.id_Cidade) join estado on (endereco.id_Estado = estado.id_Estado);
 ![Consulta](http://i.imgur.com/Eg6yeOg.png?raw=true "Consulta")<br>
 
 ####9.7	CONSULTAS COM GROUP BY<br>
@@ -157,21 +177,38 @@ select * from Possui;
 
 ####9.8	CONSULTAS COM LEFT E RIGHT JOIN<br>
 
+select Titulo,Genero,Preço from Exemplar left join livro on (Exemplar.Cod_Exemplar = livro.Cod_Exemplar);<br>
 ![Consulta](http://i.imgur.com/Uf2qCbe.png?raw=true "Consulta")<br>
+select Nome,nome_Cidade,Nome_Estado,CEP from endereco right join usuario on (usuario.Cod_endereço = endereco.Cod_endereço) left join cidade on (endereco.id_Cidade = cidade.id_Cidade) left join estado on (endereco.id_Estado = estado.id_Estado);<br>
 ![Consulta](http://i.imgur.com/MwYrPm6.png?raw=true "Consulta")<br>
+select tipo_contato,descrição,Contato.Cod_negocio from Contato right join possui on (Contato.Cod_negocio= possui.Cod_negocio);<br>
 ![Consulta](http://i.imgur.com/6FYWJzl.png?raw=true "Consulta")<br>
+select nome,nome_local from Encontra right join usuario on (usuario.Cod_usuario = Encontra.Cod_usuario) join local_negocio on (local_negocio.Cod_negocio = Encontra.Cod_negocio);<br>
 ![Consulta](http://i.imgur.com/EQ1XHdJ.png?raw=true "Consulta")<br>
 
 ####9.9	CONSULTAS COM SELF JOIN E VIEW<br>
 
+Create view Todos_exemplares as
+select Titulo,Autor,Genero,Editora,Preço from Exemplar join livro on (Exemplar.Cod_Exemplar = livro.Cod_Exemplar) order by preço;
+select * from Todos_exemplares;<br>
 ![Consulta](http://i.imgur.com/OE9Nxim.png?raw=true "Consulta")<br>
+Create view Usuarios_endereço as
+select Nome,Login,Sexo,Email,Numero,Rua,CEP,nome_Estado as Estado,nome_Cidade as Cidade from endereco join usuario on (usuario.Cod_endereço = endereco.Cod_endereço) join cidade on (endereco.id_Cidade = cidade.id_Cidade) join estado on (endereco.id_Estado = estado.id_Estado);
+select * from Usuarios_endereço;<br>
 ![Consulta](http://i.imgur.com/SyGqQXC.png?raw=true "Consulta")<br>
+
+Create view Negocios_endereço as
+select Nome_local as Nome,Numero,Rua,CEP,nome_Estado as Estado,nome_Cidade as Cidade from endereco join local_negocio on (local_negocio.Cod_endereço = endereco.Cod_endereço) join cidade on (endereco.id_Cidade = cidade.id_Cidade) join estado on (endereco.id_Estado = estado.id_Estado);
+select * from Negocios_endereço;<br>
 ![Consulta](http://i.imgur.com/Kg0mU0T.png?raw=true "Consulta")<br>
 
 ####9.10	SUBCONSULTAS<br>
 
+select * from usuario where Cod_Usuario = (select max(Cod_Usuario) from usuario);<br>
 ![Consulta](http://i.imgur.com/1tkC3Op.png?raw=true "Consulta")<br>
+select * from local_negocio where Cod_negocio = (select min(Cod_negocio) from local_negocio);<br>
 ![Consulta](http://i.imgur.com/rwyWkUB.png?raw=true "Consulta")<br>
+select * from livro where preço = (select min(preço) from livro);<br>
 ![Consulta](http://i.imgur.com/WPSNj2E.png?raw=true "Consulta")<br>
 
 ###10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES<br>
