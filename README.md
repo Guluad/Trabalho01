@@ -99,15 +99,23 @@ O projeto teve como fonte de estudo os exercícios realizados em sala de aula, o
 ![Consultas](https://github.com/Guluad/Trabalho01/blob/master/Consultas29%20(2).sql?raw=true "Consultas")<br>
 
 ####9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS<br>
-
+select * from Usuario;
 ![Consulta](http://i.imgur.com/hZsCf41.png?raw=true "Consulta")<br>
+select * from Contato;
 ![Consulta](http://i.imgur.com/qo6dUzl.png?raw=true "Consulta")<br>
+select * from Exemplar;
 ![Consulta](http://i.imgur.com/EYKzOK5.png?raw=true "Consulta")<br>
+select * from Livro;
 ![Consulta](http://i.imgur.com/EiGMN12.png?raw=true "Consulta")<br>
+select * from Endereco;
 ![Consulta](http://i.imgur.com/YtkqTPy.png?raw=true "Consulta")<br>
+select * from Cidade;
 ![Consulta](http://i.imgur.com/Vsh5iIB.png?raw=true "Consulta")<br>
+select * from Estado;
 ![Consulta](http://i.imgur.com/wKtJrd6.png?raw=true "Consulta")<br>
+select * from Encontra;
 ![Consulta](http://i.imgur.com/lpK9o52.png?raw=true "Consulta")<br>
+select * from Possui;
 ![Consulta](http://i.imgur.com/0eSyZwj.png?raw=true "Consulta")<br>
 
 ####9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE<br>
