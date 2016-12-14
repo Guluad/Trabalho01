@@ -174,9 +174,9 @@ select genero, count(*) as qtd_livros from exemplar group by genero;<br>
 ![Consulta](http://i.imgur.com/P2UiySX.png?raw=true "Consulta")<br>
 select sexo, count(*) as qtd from usuario group by sexo;<br>
 ![Consulta](http://i.imgur.com/oxvoRGN.png?raw=true "Consulta")<br>
-select tipo_contato,count(*)as qtd from contato group by tipo_contato;<br>
-![Consulta](http://i.imgur.com/C34oG9c.png?raw=true "Consulta")<br>
 select nome_local,count(titulo) qtd_livros from local_negocio join exemplar on (local_negocio.Cod_negocio = exemplar.Cod_negocio) group by nome_local;<br>
+![Consulta](http://i.imgur.com/C34oG9c.png?raw=true "Consulta")<br>
+select autor, count(*) as qtd_livros from exemplar group by autor;<br>
 ![Consulta](http://i.imgur.com/bE4ccvs.png?raw=true "Consulta")<br>
 
 ####9.8	CONSULTAS COM LEFT E RIGHT JOIN<br>
